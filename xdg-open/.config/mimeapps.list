@@ -1,0 +1,29 @@
+[Default Applications]
+text/html=microsoft-edge.desktop
+x-scheme-handler/http=microsoft-edge.desktop
+x-scheme-handler/https=microsoft-edge.desktop
+x-scheme-handler/about=microsoft-edge.desktop
+x-scheme-handler/unknown=microsoft-edge.desktop
+x-scheme-handler/msteams=teams.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-3DASN2.desktop
+message/rfc822=userapp-Thunderbird-3DASN2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-3DASN2.desktop
+x-scheme-handler/news=userapp-Thunderbird-OF3PN2.desktop
+x-scheme-handler/snews=userapp-Thunderbird-OF3PN2.desktop
+x-scheme-handler/nntp=userapp-Thunderbird-OF3PN2.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-MYMQN2.desktop
+text/calendar=userapp-Thunderbird-MYMQN2.desktop
+application/x-extension-ics=userapp-Thunderbird-MYMQN2.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-MYMQN2.desktop
+application/pdf=xpdf.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-3DASN2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-3DASN2.desktop;
+x-scheme-handler/news=userapp-Thunderbird-OF3PN2.desktop;
+x-scheme-handler/snews=userapp-Thunderbird-OF3PN2.desktop;
+x-scheme-handler/nntp=userapp-Thunderbird-OF3PN2.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-MYMQN2.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-MYMQN2.desktop;
+application/x-mswinurl=code.desktop;
+application/pdf=firefox.desktop;microsoft-edge.desktop;

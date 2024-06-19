@@ -19,7 +19,7 @@ lazy = true
 
 [scratchpads.filemanager]
 animation = "fromTop"
-command = "kitty --class kitty-dropterm nnn"
+command = "kitty --class kitty-dropterm ranger"
 class = "kitty-dropterm"
 size = "75% 60%"
 max_size = "1920px 100%"
