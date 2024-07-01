@@ -152,7 +152,7 @@ source ~/fzf-git.sh/fzf-git.sh
 
 [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
 alias nn='nnn -de'
-alias ls='eza --icons=always --color=always --all --oneline --git'
+alias ls='eza --icons=always --color=always --all --git'
 export BAT_THEME=tokyonight_night
 eval $(thefuck --alias)
 # eval "$(ntfy shell-integration)"
@@ -197,3 +197,5 @@ alias j=z
 # export GEM_HOME="$HOME/gems"
 # export PATH="$HOME/gems/bin:$PATH"
 alias v=nvim
+define() { curl -s "dict://dict.org/d:$1" | grep -v '^[0-9]'; }
+alias treeview=frangipann
