@@ -1,5 +1,24 @@
 [pyprland]
-plugins = ["scratchpads"]
+plugins = [
+    "scratchpads",
+    "shift_monitors",
+    "monitors",
+    "layout_center"
+]
+
+[layout_center]
+margin = 60
+offset = [0, 30]
+next = "movefocus r"
+prev = "movefocus l"
+next2 = "movefocus d"
+prev2 = "movefocus u"
+
+[monitors.placement."eDP-1"]
+rightof = "HDMI-A-1"
+scale = 1
+rate = 120
+
 
 [scratchpads.term]
 animation = "fromTop"

@@ -199,3 +199,4 @@ alias j=z
 alias v=nvim
 define() { curl -s "dict://dict.org/d:$1" | grep -v '^[0-9]'; }
 alias treeview=frangipann
+bindkey -s "^X" '^Cclear -x^M'

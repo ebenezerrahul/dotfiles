@@ -443,7 +443,7 @@
 },
       
 "wlr/taskbar": {
-    "format": "{icon} {name} ",
+    "format": "{icon} {name}",
     "icon-size": 15,
     "all-outputs": false,
     "tooltip-format": "{title}",

@@ -1,7 +1,7 @@
 //* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
 //* ............................................*/
 //* .............CHRYSANTHEMUM.......................*/
-//* ............................................*/
+/* ............................................*/
 //* --- 👍 designed by https://github.com/Krautt  👍 --- */
 
 {
@@ -22,7 +22,7 @@
   
 "modules-center": ["hyprland/workspaces"], 
 	
-"modules-right": ["pulseaudio#gar","backlight#gar", "battery#gar"],
+"modules-right": ["custom/playerctl", "memory", "pulseaudio#gar","backlight", "battery", "custom/updater"],
 
 // M O D U L E S //
 
