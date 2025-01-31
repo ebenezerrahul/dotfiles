@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:/var/lib/snapd/snap/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/var/lib/snapd/snap/bin:/home/ebenezerrahul/go/bin:$PATH
+export PATH=$HOME/.local/scripts:$PATH
 export PATH=/home/ebenezerrahul/.cargo/bin:$PATH 
 export PATH=/home/ebenezerrahul/.local/share/gem/ruby/3.0.0/bin:$PATH
 export PATH=/root/.local/share/gem/ruby/3.0.0/bin:$PATH
@@ -79,7 +80,7 @@ plugins=(git zsh-syntax-highlighting web-search colored-man-pages command-not-fo
 
 #setting up git with ssh
 
-export MANPATH=/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/man
+export MANPATH=$MANPATH:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/man
 source $ZSH/oh-my-zsh.sh
 
 alias mv='mv -i' 
@@ -150,7 +151,6 @@ _fzf_comprun() {
 source ~/fzf-git.sh/fzf-git.sh
 
 
-[[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
 alias nn='nnn -de'
 alias ls='eza --icons=always --color=always --all --git'
 export BAT_THEME=tokyonight_night
@@ -191,7 +191,6 @@ alias cd=z
 plugins=(auto-notify $plugins)
 source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 source "$HOME/.cargo/env"
-alias j=z
 # Install Ruby Gems to ~/gems
 # Install Ruby Gems to ~/gems
 # export GEM_HOME="$HOME/gems"
@@ -200,3 +199,10 @@ alias v=nvim
 define() { curl -s "dict://dict.org/d:$1" | grep -v '^[0-9]'; }
 alias treeview=frangipann
 bindkey -s "^X" '^Cclear -x^M'
+
+export PATH=$PATH:/home/ebenezerrahul/.spicetify
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export MANPAGER='nvim +Man!'
