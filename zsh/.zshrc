@@ -206,3 +206,13 @@ export PATH=$PATH:/home/ebenezerrahul/.spicetify
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 export MANPAGER='nvim +Man!'
+export PATH="/run/user/1000/fnm_multishells/1936862_1738485961602/bin":$PATH
+export FNM_MULTISHELL_PATH="/run/user/1000/fnm_multishells/1936862_1738485961602"
+export FNM_VERSION_FILE_STRATEGY="local"
+export FNM_DIR="/home/ebenezerrahul/.local/share/fnm"
+export FNM_LOGLEVEL="info"
+export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
+export FNM_COREPACK_ENABLED="false"
+export FNM_RESOLVE_ENGINES="true"
+export FNM_ARCH="x64"
+rehash

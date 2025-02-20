@@ -19,6 +19,8 @@ rightof = "HDMI-A-1"
 scale = 1
 rate = 120
 
+[monitors.placement."HDMI-A-1"]
+scale = 1.5
 
 [scratchpads.term]
 animation = "fromTop"
