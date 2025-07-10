@@ -20,7 +20,7 @@ scale = 1
 rate = 120
 
 [monitors.placement."HDMI-A-1"]
-scale = 1.5
+scale = 2
 
 [scratchpads.term]
 animation = "fromTop"

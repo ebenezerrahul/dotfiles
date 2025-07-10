@@ -216,3 +216,10 @@ export FNM_COREPACK_ENABLED="false"
 export FNM_RESOLVE_ENGINES="true"
 export FNM_ARCH="x64"
 rehash
+
+if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+    ssh-agent -t 24h > "$XDG_RUNTIME_DIR/ssh-agent.env"
+fi
+if [[ ! -f "$SSH_AUTH_SOCK" ]]; then
+    source "$XDG_RUNTIME_DIR/ssh-agent.env" >/dev/null
+fi
